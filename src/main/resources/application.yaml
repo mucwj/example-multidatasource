@@ -1,0 +1,10 @@
+multi-data-source:
+  data-source:
+    - label: USER
+      jdbcUrl: jdbc:mysql://localhost:3306/user?useSSL=false&allowPublicKeyRetrieval=true
+      username: username
+      password: password
+    - label: ORDER
+      jdbcUrl: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+      username: username
+      password: password
